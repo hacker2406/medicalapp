@@ -1,0 +1,13 @@
+.form-control {
+    border: 1px solid black !important;
+}
+
+.form-select {
+    border: 1px solid black !important;
+}
+.navbar{
+    background-color: #53aae1 !important;
+}
+/* .card-body{
+    border: 1px solid gray !important;
+} */

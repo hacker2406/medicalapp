@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Change as needed */
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 30px;
+}
+
+/* Form Styles */
+.form-control {
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 1px solid #ced4da; /* Adjust as needed */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #80bdff; /* Adjust as needed */
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-primary {
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: #007bff; /* Adjust as needed */
+    border: none;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Adjust as needed */
+}
+
+/* Icon Styles */
+.fa {
+    color: #007bff; /* Adjust as needed */
+}
+
+/* Heading Styles */
+h1 {
+    color: #007bff; /* Adjust as needed */
+}
+
+/* Image Styles */
+.img-fluid {
+    border-radius: 20px;
+}
+
+/* Checkbox and Radio Button Styles */
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+    font-size: 16px; 
+    margin-top: 5px;
+    /* Adjust size as needed */
+}
+
+/* Increase text size for radio and checkbox buttons */
+input[type="radio"],
+input[type="checkbox"] {
+    transform: scale(1.5); /* Adjust size as needed */
+    margin-right: 5px; /* Adjust spacing as needed */
+}
+.card {
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.fa-user-md {
+    color: #007bff; /* Adjust as needed */
+}
